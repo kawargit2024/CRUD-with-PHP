@@ -1,0 +1,205 @@
+.mt-5{margin-top:50px ;}
+label {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.container {
+    margin:  0 auto;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    min-width: 1200px;
+
+}
+
+
+table.table.table-responsive.text-center,.table-wrapper.mt-5 {
+    width: 90%;
+    max-width: 100%;
+    margin: 30px auto;
+/*     margin-top: 30px;
+    margin-left: 15p;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-right: 30px;
+    padding-left: 30px; */
+}
+
+
+tbody {
+    text-align: center;
+}
+
+tbody>tr {
+    background: #efefef;
+height:50px;
+}
+
+
+thead {
+    padding: 27px;
+    margin: 5px;
+    background: #000;
+    color: #fff;
+    font-size: 16px;
+}
+
+thead>th {
+    padding: 31px;
+}
+
+th {
+    font-size: 20px;
+        height:50px;
+}
+
+.btn {
+    border: 0;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 3px;
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: 800;
+    margin: 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.btn.btn-success {
+    background: green!important;
+}
+
+.btn.btn-default {
+    background: #ddd!important;
+}
+
+.btn.btn-danger {
+    background: red!important;
+}
+
+tr.even {
+    background: transparent;
+}
+
+h1 {
+    width: 90%;
+    padding-left: 5%;
+}
+
+.table-wrapper.mt-5 > hr{
+    width: 90%;
+    border-top: 0.5px solid #ddd;
+}
+
+.form-wrapper.mt-5>hr, form,h1.insert-heading {
+    width: 70%;
+    margin: 30px auto;
+    padding-left:0%;
+}
+
+.form-wrapper.mt-5>hr{
+    width: 50%;
+   border-top: 0.5px solid #ddd;
+}
+
+
+input[type="text"],input[type="email"],input[type="password"],input[type="tel"] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border: 1px solid #ddd;
+}
+
+input[type="submit"] {
+    background: #252525;
+    border: navajowhite;
+    padding: 15px 50px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+ul.menu-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0px 9%;
+}
+
+ul.menu-list li {
+    list-style: none;
+}
+
+ul.menu-list li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #252525;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+ul.list-right {
+    display: flex;
+    justify-content: flex-end;
+    line-height: c;
+    align-items: center;
+}
+
+ul.list-right li {
+    margin: 10px;
+}
+
+
+ul.menu-list h1 {
+    width: 100%;
+}
+
+.btn.btn-success.btohome {
+    background: green!important;
+    padding: 16px 15px;
+}
+
+/* .form-wrapper.login-wrapper.mt-5 {
+    display: flex;
+    flex-direction: cj;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+} */
+
+.login-wrapper.mt-5>hr {
+    width: 70%;
+    border-top: 0.5px solid #ddd;
+    margin: 0!important;
+}
+
+.form-wrapper.login-wrapper.mt-5 {
+    display: flex;
+    flex-direction: cj;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    margin: auto;
+}
+
+span.error {
+    color: red;
+    margin: 16px 0  0 0;
+    display: inline-block;
+    text-transform: capitalize;
+}
